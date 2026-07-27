@@ -1,8 +1,26 @@
 aid: fore-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fore-systems.png
 name: FORE Systems
-description: FORE Systems is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: FORE Systems, Inc. was a computer network switching equipment company based in
+  Warrendale (Pittsburgh), Pennsylvania, founded in 1990 by Carnegie Mellon researchers Francois
+  Bitz, Onat Menzilcioglu, Robert Sansom and Eric Cooper (the "FORE" acronym) to build Asynchronous
+  Transfer Mode (ATM) network interface cards and switches. It was the first company to commercially
+  ship an ATM switch (the ASX-100) in 1992 and grew through acquisitions (ALANTEC, Applied Network
+  Technology, RainbowBridge, CellAccess) before being acquired by Britain's General Electric Company
+  (GEC) in 1999, folded into Marconi, and ultimately absorbed by Ericsson in 2006. The company is
+  defunct and has no active API surface, developer portal, or product endpoints; this profile is a
+  historical/company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/fore-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,31 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct:
+  acquired-by: General Electric Company (GEC) / Marconi
+  acquired-year: '1999'
+  successor: Ericsson (2006)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Networking
+- ATM
+- Telecommunications
+- Networking Hardware
+- Defunct
+- Historical
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
